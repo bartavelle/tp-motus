@@ -38,6 +38,9 @@ check = undefined
 --
 -- ATTENTION : les tests qui conditionnent la note seront fait avec un dictionnaire
 -- plus gros que celui qui vous est proposé ici, en particulier avec des mots plus longs!
+--
+-- Pour utiliser le "Set", reportez vous à la documentation suivante:
+-- https://hackage.haskell.org/package/containers-0.6.5.1/docs/Data-Set.html
 solve ::
   -- | dictionnary of possible secret words
   Set String ->
